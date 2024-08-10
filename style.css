@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.fontfamily {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  /* default styles */
+  *{
+    margin: 0
+    
+  }
+  /* navigation */
+  .container{
+    margin: 0 auto;
+    height: 6rem;
+   width: 90%;
+    border-radius: 1rem;
+  }
+.navsection{
+    
+    background-color:rgba(0,0,0)
+}
+  .navfit{
+color: rgb(230, 83, 60);
+font-size: 1.3rem;
+font-weight: 800;
+padding-left: 6rem;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navitems{
+    display: flex;
+    justify-content: space-evenly;
+    gap:3rem;
+    border: 0.1rem solid rgb(47, 45, 45);
+    border-radius: 2rem;
+    padding-left: 0.1rem;
+    padding-right: 1rem;
+    margin-right: 4rem;
+    color: rgb(255, 255, 255);
+    font-size:1.2rem;
+    font-weight: 250;
+    cursor: pointer;
+  }
+.navothers{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 1.4rem;
+    padding-top:0.2rem;
+}
+  .home{
+    border-radius:1rem;
+    background-color:rgb(230, 83, 60) ;
+  padding: 0.2rem 1.2rem 0.2rem 1.2rem;
+  }
+  .hamburger{
+    display: none;
+  }
+  /* responsive design */
+  @media screen and (max-width:576px) {
+    .navitems{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        color: aliceblue;
+        font-size:1.5rem;
+    }
+    .navfit{
+        margin-left: -6rem;
+    }
+  }
