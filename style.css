@@ -189,13 +189,16 @@ padding-left: 6rem;
       position: relative;
 
     }
+    .video-info{
+      padding-top: 20px;
+    }
     .tutorial-info{
-      position: absolute;
-width: 155.74px;
+position: absolute;
+width: 120.74px;
 height: 60.58px;
 right: 40px;
 bottom: 170.38px;
-padding-left: 25px;
+padding-left: 20px;
 padding-top: 20px;
 
 
