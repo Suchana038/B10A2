@@ -148,7 +148,49 @@ padding-left: 6rem;
       bottom: 3%;
       left:3%;
     }
-
+    /* habit ssection start */
+    .habit-content{
+      text-align: center;
+      margin-top: 70px;
+    }
+     .habit-heading{
+      font-size: 2rem;
+      font-weight: bold;
+      color: rgb(255, 255, 255);
+     }
+     .habit-para{
+       font-size: 0.8rem;
+       color: rgba(255, 255, 255, 0.5);
+     }
+     .image-container{
+      display: flex;
+      justify-content: space-around;
+       width: 60%; 
+      height: 715px;
+        margin-left: 300px; 
+        margin-top: 40px;
+     }
+     .img-card{
+      text-align: center;
+      margin: 15px;
+    
+     }
+     .img-card img{
+      border: 1px solid gray;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+     }
+     .img-card h3{
+      margin-top: 10px;
+      font-size: 1rem;
+     }
+     .img-card p {
+        font-size: 0.8rem;
+        color: #ccc;
+     }
+     /* habit section end */
 
 
 
@@ -164,6 +206,7 @@ padding-left: 6rem;
         display: block;
         color: aliceblue;
         font-size:1.5rem;
+
     }
     .navfit{
         margin-left: -6rem;
@@ -203,6 +246,23 @@ padding-top: 15px;
 
 
     }
-    
-      
+    /* habit section start */
+    .habit-content{
+     margin-top: -5px; 
+    }
+    .habit-para{
+      margin-left: 15px;
+      margin-right: 15px;
+      line-height: 20px;
+    }
+    .image-container{ 
+      display: flex; 
+      flex-direction: column;
+    }
+      .img-card{
+         margin-left: -450px; 
+      }
+      /* habit section end */
+
+
     }
