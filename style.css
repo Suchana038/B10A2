@@ -67,7 +67,10 @@ padding-left: 6rem;
   @import url('https://fonts.cdnfonts.com/css/miama');
   .shape{
     font-family: 'Miama', sans-serif;
-    font-size: 4rem;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6rem;
   }
   .fitness-section{
     display: flex;
@@ -167,12 +170,13 @@ padding-left: 6rem;
       justify-content: space-around;
        width: 60%; 
       height: 715px;
-        margin-left: 300px; 
+        margin-left: 200px; 
         margin-top: 40px;
      }
      .img-card{
       text-align: center;
       margin: 15px;
+      
     
      }
      .img-card img{
@@ -192,13 +196,57 @@ padding-left: 6rem;
      }
      /* habit section end */
 
+     /* run extra section start */
+        .run-container{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          background-color: #2b2b2b;
+          padding: 20px;
+          border-radius: 15px;
+          max-width: 60%;
+          max-height: 40%;
+          margin: 20px auto;
+          margin-top: -400px;
+        }
+        .run-content{
+          max-width: 50%;
+        }
+        .run-content h1{
+          font-size: 2rem;
+          margin-bottom: 20px;
+        }
+        .run-content p{
+          font-size: 0.7rem;
+          margin-bottom: 30px;
+          color:gray;
+        }
+        .run-btn{
+          background-color: #ff6600;
+          color: #fff;
+          border: none;
+          padding: 10px 40px;
+          font-size: 1rem;
+          border-radius: 42px;
+          cursor: pointer;
+        }
+        .run-img img {
+          border-radius: 20px;
+          width: 220px;
+          height: 190px;
+          left: 662px;
+          top: 30px;
+          
+        
+        }
+     /* run extra section end */
 
 
 
 
 
   /* responsive design */
-  @media screen and (max-width:576px) {
+  @media screen and (min-width:320px) and (max-width:576px) {
     .navitems{
         display: none;
     }
@@ -206,8 +254,11 @@ padding-left: 6rem;
         display: block;
         color: aliceblue;
         font-size:1.5rem;
+        
+       
 
     }
+    
     .navfit{
         margin-left: -6rem;
     }
@@ -225,15 +276,21 @@ padding-left: 6rem;
     }
     .buttons{
       margin-right:35px;
-      font-size: 0.9rem;
-    }
-    .image-section img{
-      margin-left: -40px;
-      position: relative;
+      font-size: 0.8rem;
+    
 
     }
+    
+     
+    .image-section img{
+       margin-left: 30px;
+      position: relative;
+     
+    }
     .video-info{
-      padding-top: 10px;
+      position: absolute;
+      top:40px;
+      
     }
     .tutorial-info{
 position: absolute;
@@ -250,19 +307,48 @@ padding-top: 15px;
     .habit-content{
      margin-top: -5px; 
     }
+    .habit-heading{
+      text-align: center;
+    }
     .habit-para{
       margin-left: 15px;
       margin-right: 15px;
       line-height: 20px;
+      
     }
     .image-container{ 
       display: flex; 
       flex-direction: column;
+     
     }
       .img-card{
-         margin-left: -450px; 
+        margin-left: -210px;
+        
       }
       /* habit section end */
-
-
+      /* run section start */
+       .run-container{
+       max-width: 90%;
+       height: 100%;
+      margin-top: 250px;
+      margin-left: 55px;
+      flex-direction: column;
+       }
+      .run-content h1 {
+         font-size: 1.5rem;
+         margin-left: -55px;
+      }
+      .run-content p{
+        margin-left:-55px ;
+        line-height: 20px;
+      }
+      .run-btn{
+        padding: 10px 35px 10px 35px;
+        width: 220px;
+        margin-left: -50px;
+      }
+      .run-img img {
+        margin-top: 25px;
+      
+      }
     }
