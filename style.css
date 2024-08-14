@@ -170,7 +170,7 @@ padding-left: 6rem;
       justify-content: space-around;
        width: 60%; 
       height: 715px;
-        margin-left: 250px; 
+        margin-left: 190px; 
         margin-top: 40px;
      }
      .img-card{
@@ -258,12 +258,13 @@ padding-left: 6rem;
       display: flex;
       gap: 130px;
       margin-top: 60px;
-       width: 100%;
+       width:100%;
       background-color:#2b2b2b;
      }
      .bmi-table{
-      margin-left: 190px;
+      margin-left: 170px;
       margin-top: 40px;
+       
      }
      .bmi-heading{
       font-size: 1rem;
@@ -297,6 +298,8 @@ padding-left: 6rem;
      }
      .bmi-cal{
        margin-top: 40px;
+       width: 50%;
+       margin-right: 50px;
        
      }
      .bmi-cal h2 {
@@ -374,21 +377,26 @@ margin-bottom: 25px;
     .trainer-container{
          display: grid; 
       grid-template-columns: repeat(3,1fr); 
-      gap: 5px; 
-      width: 1060px;
-      height: 604px;
-       margin-left:230px;
-       background-color: #2b2b2b;
+      gap: 5px;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      width: 960px;
+      height: 500px;
+      background-color: #2b2b2b;
     }
     .trainer img{
       position: relative;
-      width: 320px;
-      height: 270px;
+      width: 295px;
+      height: 230px;
       border-radius: 1.3rem;
-      margin-left: 15px;
-      margin-top: 10px;
+        margin-left: 10px;
+      margin-top:10px; 
+      /* margin-bottom: 20px; */
+      align-items: center;
       background: rgba(0, 0, 0, 0.2);
     }
+    
     .train-head ,.train-para{
       position: absolute;
       margin-top: -60px;
@@ -496,8 +504,8 @@ margin-bottom: 25px;
      }
      .horizon{
         border: 1px solid rgba(255, 255, 255, 0.1);
-        width: 750px;
-        margin-left: 350px;
+        width: 50%;
+        margin-left: 290px;
         margin-top: -30px;
         margin-bottom: 25px;
      }
@@ -509,6 +517,7 @@ margin-bottom: 25px;
       margin-bottom: 40px;
      }
    /* Footer Section End */
+    
 
 
 
